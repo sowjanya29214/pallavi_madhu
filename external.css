@@ -1,0 +1,9 @@
+body{ 
+    background-color:aqua;
+    background-image:url(sky.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+P{
+    color: brown;
+}
