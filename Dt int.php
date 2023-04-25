@@ -1,0 +1,10 @@
+<?php
+$a=29214;
+var_dump($a);
+echo"<br>";
+$b=5219;
+var_dump($b);
+echo"<br>";
+$c="bindu";
+var_dump($c);
+?>
