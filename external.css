@@ -1,9 +1,10 @@
-body{ 
-    background-color:aqua;
-    background-image:url(sky.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
+.container{
+    width: 50px;
+    height: 100px;
+    background-color: cadetblue !important;
 }
-P{
-    color: brown;
+.caontiner-fluid{
+    width: 80px;
+    height: 150px;
+    background-color: coral !important;
 }
