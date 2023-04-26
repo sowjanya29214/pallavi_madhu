@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .navbar {
+            background-color: grey;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            list-style: none;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: brown;
+            float: left;
+            padding: 10px;
+        }
+
+        .navbar li a:hover {
+            color: grey;
+        }
+
+        .navbar input {
+            border: 1px;
+            width: 200px;
+            height: 25px;
+            float: right;
+            border-radius: 10px;
+        }
+
+        .navbar div {
+            float: right;
+            border: 1px solid black;
+            height: 30px;
+            width: 250px;
+            background-color: white;
+            border-radius: 25px;
+            padding: 3px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="">CONTACT US</a></li>
+            <li><a href="">SERVICE US</a></li>
+            <div>
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="text" id="search" class="search" placeholder="Search the website">
+            </div>
+        </ul>
+    </nav>
+</body>
+
+</html>
